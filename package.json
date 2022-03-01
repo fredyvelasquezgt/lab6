@@ -1,0 +1,27 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Pablo Escobar",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "remove-unused-files-webpack-plugin": "^1.0.3",
+    "sass": "^1.49.9",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "style-loader": "^3.3.1",
+    "webpack-clean-obsolete-chunks": "^0.4.0"
+  }
+}
